@@ -1,0 +1,20 @@
+PC1,PC2,BodySite
+-0.24,-0.08,Cloaca
+-0.25,0.04,Cloaca
+-0.14,-0.08,Cloaca
+-0.22,0.07,Cloaca
+-0.24,-0.03,Cloaca
+-0.13,-0.05,Cloaca
+0.03,0.2,Oral Cavity
+0.11,-0.09,Skin
+0.16,-0.17,Skin
+0.04,0.2,Feces
+0.02,0.2,Feces
+0.04,0.04,Skin
+0.2,0.12,Feces
+0.13,-0.2,Oral Cavity
+0.11,0.06,Feces
+0.12,-0.25,Skin
+-0.04,-0.09,Oral Cavity
+0.22,0.1,Feces
+0.08,0.03,Oral Cavity

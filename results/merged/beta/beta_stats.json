@@ -1,0 +1,1 @@
+{"braycurtis": {"pc1(%)": 19, "pc2(%)": 12, "stats": "ANOSIM: R = 0.59 P <0.01"}, "jaccard": {"pc1(%)": 24, "pc2(%)": 15, "stats": "ANOSIM: R = 0.55 P <0.01"}, "unweighted_unifrac": {"pc1(%)": 33, "pc2(%)": 19, "stats": "ANOSIM: R = 0.84 P <0.01"}, "weighted_unifrac": {"pc1(%)": 31, "pc2(%)": 22, "stats": "ANOSIM: R = 0.72 P <0.01"}}
