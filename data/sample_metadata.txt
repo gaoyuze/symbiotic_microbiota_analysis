@@ -1,0 +1,20 @@
+SampleID	ProjectID	HostName	BodySite
+SRR23216662	PRJNA924021	Terrapene carolina	Cloaca
+SRR23216663	PRJNA924021	Terrapene carolina	Cloaca
+SRR23216664	PRJNA924021	Terrapene carolina	Cloaca
+SRR23216665	PRJNA924021	Terrapene carolina	Cloaca
+SRR23216666	PRJNA924021	Terrapene carolina	Cloaca
+SRR23216667	PRJNA924021	Terrapene carolina	Cloaca
+ERR1474235	PRJEB14602	Varanus komodoensis	Feces
+ERR1474236	PRJEB14602	Varanus komodoensis	Oral Cavity
+ERR1474237	PRJEB14602	Varanus komodoensis	Skin
+ERR1474238	PRJEB14602	Varanus komodoensis	Feces
+ERR1474239	PRJEB14602	Varanus komodoensis	Oral Cavity
+ERR1474240	PRJEB14602	Varanus komodoensis	Feces
+ERR1474244	PRJEB14602	Varanus komodoensis	Skin
+ERR1474246	PRJEB14602	Varanus komodoensis	Oral Cavity
+ERR1474247	PRJEB14602	Varanus komodoensis	Skin
+ERR1474248	PRJEB14602	Varanus komodoensis	Feces
+ERR1474249	PRJEB14602	Varanus komodoensis	Oral Cavity
+ERR1474250	PRJEB14602	Varanus komodoensis	Skin
+ERR1474251	PRJEB14602	Varanus komodoensis	Feces
