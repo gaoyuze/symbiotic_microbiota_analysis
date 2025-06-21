@@ -7,14 +7,25 @@ This repository contains pipeline associated with **Herpetofaunal microbial comm
 ```shell
 conda env create -n qiime2-2023.7 --file qiime2-2023.7-py38-linux-conda.yml
 
+conda activate qiime2-2023.7
 conda install -c bioconda -c conda-forge picrust2=2.5.2
+conda install -c bioconda fastp
 
 cd q2-picrust2-2023.2_0/
 pip install -e .
 
+# Download Taxonomy classifiers
+wget -O data/gg_2022_10_backbone_full_length.nb.qza https://data.qiime2.org/classifiers/greengenes/gg_2022_10_backbone_full_length.nb.qza
 ```
 
 ## Description of Files
+
+- `0.data_clean.sh`: Performs fast quality control and preprocessing on the downloaded projects using `fastp`. Run the following script to perform the data clean.
+
+  ```shell
+  chmod +x 0.data_clean.sh
+  nohup ./0.data_clean.sh > clean.log 2>&1 &
+  ```
 
 - `1.build_path.ipynb`: Generates the absolute paths for all samples across projects to facilitate subsequent analysis.
 
@@ -33,6 +44,4 @@ pip install -e .
   nohup ./6.function.sh > function.log 2>&1 &
   ```
   
-  
-
 - `7.beta_diversity.ipynb`: Calculates beta diversity.
